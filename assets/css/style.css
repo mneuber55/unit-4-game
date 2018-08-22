@@ -1,0 +1,28 @@
+body {
+    background: slategray;
+}
+
+.game-title,
+.instructions,
+.crystal-row {
+    margin-top: 20px;
+    /* margin-bottom: 20px; */
+}
+
+.game-title,
+.instructions {
+    background: #ffffff;
+}
+
+
+img {
+    height: 75px;
+}
+
+#emerald,
+#garnet,
+#sapphire,
+#topaz {
+    padding: 10px;
+    background: #ffffff;
+}
