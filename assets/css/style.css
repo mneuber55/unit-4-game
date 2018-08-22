@@ -4,25 +4,89 @@ body {
 
 .game-title,
 .instructions,
-.crystal-row {
+.crystal-row,
+.magic-number-col,
+#message-box {
     margin-top: 20px;
-    /* margin-bottom: 20px; */
 }
 
-.game-title,
+.game-title {
+    color: #ffffff;
+}
+
 .instructions {
     background: #ffffff;
+    padding-top: 20px;
+    padding-bottom: 10px;
+    border-radius: 25px;
 }
 
+.magic-number-col {
+    background: powderblue;
+    border-radius: 25px;
+}
+
+#magic-number {
+    float: left;
+    padding: 30px 0 30px 10px;
+    text-align: center;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+#wins-losses {
+    float: right;
+    margin-right: 100px;
+    padding: 10px 0 0 0;
+}
+
+.crystal-column {
+    background: #ffffff;
+    padding: 10px;
+    border-radius: 25px;
+}
 
 img {
-    height: 75px;
+    height: 65px;
+    margin: 5px;
 }
 
 #emerald,
 #garnet,
 #sapphire,
 #topaz {
-    padding: 10px;
     background: #ffffff;
+    float: left;
+}
+
+#your-score {
+    background: #ffffff;
+    float: right;
+    padding: 25px;
+    padding-right: 50px;
+    text-align: center;
+    font-size: 20px;
+}
+
+.topaz-img {
+    padding-left: 3px;
+}
+
+.explorer {
+    padding: 50px;
+}
+
+#explorer-img {
+    height: 200px;
+    border-radius: 100px;
+}
+
+#message-box {
+    padding: 30px 30px 30px 60px;
+    color: #ffffff;
+    font-size: 20px;
+}
+
+.crystal-row {
+    margin-bottom: 100px;
 }
